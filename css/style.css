@@ -142,7 +142,23 @@ h1 {
   color: #FFF;
   font-family: "roboto"; }
 
-.btn-success:active:focus {
+.btn-success {
+  border-color: #FF6F04 !important;
+  background: #FF6F04 !important;
+  color: #FFF !important;
+  font-family: "roboto" !important; }
+
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  color: #FFF;
+  background-color: #FF6F04;
+  border-color: #FF6F04; }
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #FFF;
+  background-color: #FF6F04;
+  border-color: #FF6F04; }
+
+.btn-success:visited {
   border-color: #FF6F04 !important;
   background: #FF6F04 !important;
   color: #FFF !important;

@@ -127,7 +127,26 @@ h1{
 	font-family: $familia-h;
 }
 
-.btn-success:active:focus{
+.btn-success{
+	border-color: $naranja-oscuro !important;
+	background: $naranja-oscuro !important;
+	color: $blanco !important;
+	font-family: $familia-h !important;
+}
+
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: $blanco;
+    background-color: $naranja-oscuro;
+    border-color: $naranja-oscuro;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    color: $blanco;
+    background-color: $naranja-oscuro;
+    border-color: $naranja-oscuro;
+}
+
+.btn-success:visited{
 	border-color: $naranja-oscuro !important;
 	background: $naranja-oscuro !important;
 	color: $blanco !important;
